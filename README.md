@@ -22,7 +22,17 @@ Second Part: Environmental Impact
 
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+We will use the Global Food and Agriculture Statistics database from FAOStat: 
+https://www.kaggle.com/unitednations/global-food-agriculture-statistics
+
+1. To look at total production we will look at the worldwide production in terms of energy (ie. calories), using data from the food supply datasheet and summing for each country the energy supply associated to each crop.
+2. From the country investment statistics data, we will look at the levels of investment in agriculture (for example investment in machinary), and will use this to analyze levels of 'development' or 'modernization' of agriculture between different years and countries 
+3. To look at how yield has developed in relation to fertilizer and pesticide use, we will use the following datasets:
+ - To look at pesticide use per country, we will use Pesticides data from Agri-environmental factors, which give us the amount of pesticides per ha of cropland for about 140 countries between 1990 and 2016. 
+ - To look at fertilizers, we have also amount of fertilizers per ha of cropland but only from 2002.
+ - To look at yield, in the “production/crops” sheet, we have yield for more than 40 crops from 1961 to 2017.
+	4. To have a view on CO2 emissions due to agriculture, we will use the “Emission-Agriculture/Agriculture total sheet” were we can have data of CO2 emitted between 1961 and 2017 for nearly 200 countries
+
 
 # A list of internal milestones up until project milestone 2
 Nov. 4th :
