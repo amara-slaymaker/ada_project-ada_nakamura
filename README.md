@@ -34,7 +34,7 @@ https://www.kaggle.com/unitednations/global-food-agriculture-statistics
  - To look at fertilizers, we have also amount of fertilizers per ha of cropland but only from 2002.
  - To look at yield, in the “production/crops” sheet, we have yield for more than 40 crops from 1961 to 2017.
 
-4. To have a view on CO2 emissions due to agriculture, we will use the “Emission-Agriculture/Agriculture total sheet” were we can have data of CO2 emitted between 1961 and 2017 for nearly 200 countries
+4. To look at CO2 emissions due to agriculture, we will use the “Emission-Agriculture/Agriculture total sheet” were we can have data of CO2 emitted between 1961 and 2017 for nearly 200 countries
 
 
 # A list of internal milestones up until project milestone 2
