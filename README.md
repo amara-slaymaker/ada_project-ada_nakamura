@@ -13,6 +13,7 @@ First Part: Production and Modern Industrial Methods
 - How has the use of modern/industrial agricultural methods (synthetic fertilizers, pesticides, machinery) evolved? 
 - Can we identify some relationships between the evolution of production and yield, and the evolution of the use of synthetic fertilizers, pesticides and machinery? 
   - (For example, we expect that the use of these methods will increase production in general, but is there a point at which the relationship plateaus and there is no longer a significant increase? Is the change in yield for a given change in input such as fertilizers increasing or decreasing?) 
+  
 Second Part: Environmental Impact
 - What is the current level of different environmental impact due to agriculture? (for example in terms CO2eq and land use area) 
 - How has the level of environmental impact due to agriculture evolved? 
