@@ -2,6 +2,8 @@
 """Function used to perform Principal Component Analysis"""
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 from random import randint
 
 def PCA_viz(df):
@@ -13,16 +15,6 @@ def PCA_viz(df):
     ax.set_ylabel('Principal Component 2', fontsize = 15)
     ax.set_title('2 component PCA', fontsize = 20)
     
-    #random generation of colors
-    colors = []
-    n = len(df[df.columns[-1]]) #size of the column containing the targets
-    for i in range(n):
-        colors.append('#%06X' % randint(0, 0xFFFFFF))
-        
     #plot
-    ax.scatter(df.loc[:, 'PC1']
-                   , df.loc[:, 'PC2']
-                   , c = colors
-                   , s = 50)
-    #ax.legend(areas)
-    ax.grid()
+    ax.grid(alpha=0.5)
+    ax = sns.scatterplot(x='PC1', y='PC2',data=df, s=80,edgecolor="black")
