@@ -1,5 +1,8 @@
 # Evolution of Agriculture - Inputs, Environmental Impacts & Outputs
 
+# How to see the Milestone 2
+The notebook is in the branche master and is called Milestone_2.ipynb. 
+
 # Abstract
 To answer the increasing demand for food, resulting from rising population and consumption, agriculture has evolved to employ modern industrial methods such as synthetic fertilizers, pesticides, and machinery in order to increase production.  However, these methods are also associated with increased environmental impacts, such as greenhouse gas emissions, land degradation and water pollution. Due to this, interest in alternative methods such as organic agriculture and permaculture is increasing – although these methods still represent a small fraction of global agriculture.
  
