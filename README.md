@@ -60,3 +60,4 @@ Dec. 20th (Deadline for Milestone 3):
 # Questions for TAs
 - Which libraries should we use to plot interactive maps? We've been looking on GeoPandas, Pandas_Bokeh, plotly and some others but we couldn't find enough documentation to understand how they work.
 - Is it realistic to replace the missing values by zero or we rather should interpolate whenever it is possible?
+- About UMAP, we are a bit worried about the randomness of the algorithm. Moreover, we couldn't find any information about how well performed the UMAP with our data, and how are represented the different yields in the UMAP axis. Based on our understanding of the method, we considered that the directionnality of the UMAP was not meaningful (i.e. when plotting 1st axis against fertilizer use, having coefficients of x or -x means the same thing). Is that right? Do we need so to analyze the absolute value of the coefficients? 
