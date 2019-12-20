@@ -1,18 +1,16 @@
 # Evolution of Agriculture - Inputs, Environmental Impacts & Outputs
 
-# How to see the Milestone 2
-The notebook is in the branche master and is called Milestone_2.ipynb. 
+# How to read the Milestone 3
+The notebook is in the branche master and is called `Milestone_3.ipynb`. In order to visualize interactive plots, please choose the html version of the notebook called `Milestone_3.html`. The data story is visible here !!!
 
 # Abstract
 To answer the increasing demand for food, resulting from rising population and consumption, agriculture has evolved to employ modern industrial methods such as synthetic fertilizers, pesticides, and machinery in order to increase production.  However, these methods are also associated with increased environmental impacts, such as greenhouse gas emissions, land degradation and water pollution. Due to this, interest in alternative methods such as organic agriculture and permaculture is increasing – although these methods still represent a small fraction of global agriculture.
  
 Considering the need to reduce the environmental impact of agriculture while maintaining and increasing production, we will establish the current level of global food production and analyze the evolution of modern agriculture in terms of the impact of increasing use of machinery, fertilizers and pesticides on production and yield as well as on environmental indicators. This information can be used to identify a baseline which alternatives much meet and improve upon. 
 
-
 # Research questions
 First Part: Production and Modern Industrial Methods
-- What ‘current’ level of global food production is required? (as of 2013, the most recent year available in the dataset)
-- How has food production (in term of quantity) and yield evolved? (within the timeframe of the dataset, from 1961-2013)
+- How has food yield evolved in time all over the world? (within the timeframe of the dataset, from 1961-2013)
 
 Second Part : Correlation between fertilizers use and surfacic yields using PCA
 - How has the use of synthetic fertilizers evolved? 
@@ -39,28 +37,9 @@ https://www.kaggle.com/unitednations/global-food-agriculture-statistics
  - To look at fertilizers, we have also amount of fertilizers per ha of cropland but only from 2002.
  - To look at yield, in the “production/crops” sheet, we have yield for more than 40 crops from 1961 to 2017.
 
-4. To look at CO2 emissions due to agriculture, we will use the “Emission-Agriculture/Agriculture total sheet” were we can have data of CO2 emitted between 1961 and 2017 for nearly 200 countries
+4. To look at CO2 emissions due to agriculture, we will use the “Emission-Agriculture/Agriculture total sheet” were we can have data of CO2 emitted between 1961 and 2017 for nearly 200 countries.
+
+# Group organisation
+We worked together on each step, from the preliminary data analysis to the preparation of the final presentation. 
 
 
-# A list of internal milestones up until project milestone 3
-Dec. 2nd :
-- Further analyse the outliers and the missing values
-- Expand our analyse to every year when it hasn't been done yet
-- Work on the framework on the story we want to tell and on the report
-
-Dec. 9th:
-- Find a way to present interactive maps 
-- Try the fertilizer analyse on other fertilizers to see if we obtain the same tendancy in the results
-- Debug our code 
-  
-Dec. 16th:
-- Write the datastory
-
-Dec. 20th (Deadline for Milestone 3):
-- Last read of the report
-
-
-# Questions for TAs
-- Which libraries should we use to plot interactive maps? We've been looking on GeoPandas, Pandas_Bokeh, plotly and some others but we couldn't find enough documentation to understand how they work.
-- Is it realistic to replace the missing values by zero or we rather should interpolate whenever it is possible?
-- About UMAP, we are a bit worried about the randomness of the algorithm. Moreover, we couldn't find any information about how well performed the UMAP with our data, and how are represented the different yields in the UMAP axis. Based on our understanding of the method, we considered that the directionnality of the UMAP was not meaningful (i.e. when plotting 1st axis against fertilizer use, having coefficients of x or -x means the same thing). Is that right? Do we need so to analyze the absolute value of the coefficients? 
