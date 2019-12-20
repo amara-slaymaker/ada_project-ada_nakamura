@@ -1,7 +1,7 @@
 # Evolution of Agriculture - Inputs, Environmental Impacts & Outputs
 
 # How to read the Milestone 3
-The notebook is in the branch master and is called `Milestone_3.ipynb`. The data story is in html and can be found in the folder "Eat your fertilizers, you'll grow up soon !
+The notebook is in the branch master and is called `Milestone_3.ipynb`. The data story is in html. The main page is "Eat your fertilizers, you'll grow up soon!.htm. There are two other pages: Supplementary.htm and Methods.htm. The relevant files to go with it can be found in the folder "Eat your fertilizers, you'll grow up soon !
 
 # Abstract
 To answer the increasing demand for food, resulting from rising population and consumption, agriculture has evolved to employ modern industrial methods such as synthetic fertilizers, pesticides, and machinery in order to increase production.  However, these methods are also associated with increased environmental impacts, such as greenhouse gas emissions, land degradation and water pollution. Due to this, interest in alternative methods such as organic agriculture and permaculture is increasing – although these methods still represent a small fraction of global agriculture.
